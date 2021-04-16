@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samyugdha.mainactivity.CountdownActivity"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fwm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <TextView
+                android:id="@+id/numbersTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        />
+
+    <EditText
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eceff1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:textColor="#000000"
+        android:layout_below="@id/numbersTv"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/targetTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/numbers"
+        />
+
+    <EditText
+        android:id="@+id/target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eceff1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_below="@id/targetTv"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/solve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/target"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:padding="5dp"
+        android:onClick="exit"
+        android:text="EXIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class1Q2"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/qq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1c4"
+        android:text="What is Square root of 16?"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/c4q1op1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1c4"
+        android:onClick="c4q1opt1"
+        android:text="4"
+        android:layout_marginLeft="100dp">
+    </Button>
+    <Button
+        android:id="@+id/c4q1op2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1c4"
+        android:onClick="c4q1opt2"
+        android:text="9"
+        android:layout_marginLeft="210dp"
+        />
+    <Button
+        android:id="@+id/c4q1op3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c4q1op1"
+        android:onClick="c4q1opt3"
+        android:text="15"
+        android:layout_marginLeft="100dp"
+        />
+    <Button
+        android:id="@+id/c4q1op4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c4q1op2"
+        android:onClick="c4q1opt4"
+        android:text="10"
+        android:layout_marginLeft="210dp"
+        />
+
+
+
+</RelativeLayout>
+

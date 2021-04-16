@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context=".QuizActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer"
+        android:hint="answer"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"/>
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/answer"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="60dp"/>
+
+    <TextView
+        android:id="@+id/sumanswer"
+        android:layout_width="268dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="136dp"
+        android:text="TextView"
+        android:paddingLeft="100dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="257dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer"
+        android:layout_marginBottom="55dp"
+        android:paddingLeft="50dp"
+        android:text="Hello World"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

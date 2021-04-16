@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/opendoor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/Class1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:text="Grade 1"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />    <Button
+        android:id="@+id/Class2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Class1"
+        android:onClick="class2"
+        android:layout_marginTop="10dp"
+        android:text="Grade 2"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />    <Button
+        android:id="@+id/Class3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="class3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Class2"
+        android:text="Grade 3"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/Class4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="class4"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/Class3"
+        android:text="Grade 4 "
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:onClick="exit"
+        android:text="EXIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</RelativeLayout>

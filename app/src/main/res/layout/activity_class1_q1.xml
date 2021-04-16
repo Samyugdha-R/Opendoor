@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Class1Q1">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/qq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1c1"
+        android:text="Guess the next number :1 2 3 4 __ "
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/op1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1c1"
+        android:onClick="opt1"
+        android:text="5"
+        android:layout_marginLeft="100dp">
+    </Button>
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1c1"
+        android:onClick="opt2"
+        android:text="7"
+        android:layout_marginLeft="210dp"
+        />
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/op1"
+        android:onClick="opt3"
+        android:text="6"
+        android:layout_marginLeft="100dp"
+        />
+    <Button
+        android:id="@+id/op4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/op2"
+        android:onClick="opt4"
+        android:text="13"
+        android:layout_marginLeft="210dp"
+        />
+
+
+
+</RelativeLayout>
